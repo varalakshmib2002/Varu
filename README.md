@@ -4,25 +4,26 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Icons for 
 import { Card, CardContent } from "@/components/ui/card"; // UI components for a cleaner layout
 
 // List of projects with details
-tconst projects = [
+const projects = [
   {
     title: "Project One",
     description: "A web application built using React and Firebase.",
-    link: "#",
+    link: "#"
   },
   {
     title: "Project Two",
     description: "A REST API developed with Node.js and Express.",
-    link: "#",
+    link: "#"
   },
   {
     title: "Project Three",
     description: "A portfolio website showcasing modern design trends.",
-    link: "#",
-  },
+    link: "#"
+  }
 ];
 
-// Portfolio component\export default function Portfolio() {
+// Portfolio component
+export default function Portfolio() {
   return (
     <div className="bg-gray-900 text-white min-h-screen p-6">
       {/* Page header */}
@@ -69,7 +70,7 @@ tconst projects = [
             <FaGithub />
           </a>
           {/* LinkedIn link */}
-          <a href="#" className="text-blue-400 text-xl">
+          <a href="https://www.linkedin.com/in/varalakshmi-b-10811b201" className="text-blue-400 text-xl">
             <FaLinkedin />
           </a>
         </div>
