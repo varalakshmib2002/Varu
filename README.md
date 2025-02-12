@@ -61,11 +61,11 @@ tconst projects = [
         <p>Contact Me:</p>
         <div className="flex justify-center gap-4 mt-2">
           {/* Email link */}
-          <a href="mailto:your.email@example.com" className="text-blue-400 text-xl">
+          <a href="mailto:varalakshmib103@gmail.com" className="text-blue-400 text-xl">
             <FaEnvelope />
           </a>
           {/* GitHub link */}
-          <a href="#" className="text-blue-400 text-xl">
+          <a href="https://github.com/varalakshmib2002/Varu" className="text-blue-400 text-xl">
             <FaGithub />
           </a>
           {/* LinkedIn link */}
